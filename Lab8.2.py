@@ -46,7 +46,7 @@ def main():
 
     if record:
         for year, movie, bond in record:
-            print(f'In the movie, {movie}. The star of the movie was {bond}, and the movie was released in the year {year}')
+            print(f'In  {year} the movie was been released and the tittle of the  movie is {movie} and the actor is {bond}')
     else:
         print("Movie either doesn't exist or isn't in the database.")
 
