@@ -22,8 +22,8 @@ def graphdata(data_path):
     plt.ylabel('Average IMDb Rating')
     plt.title('Average IMDb Ratings for Each Bond Car Manufacturer')
     plt.tight_layout()  # Adjust layout to fit the graph
-    plt.xticks(rotation=45)
-    plt.grid(axis="y", linestyle="--", alpha=0.7)
+    plt.xticks(rotation=70)
+    plt.grid(axis="y", linestyle="--", alpha=0.9)
     plt.show()
 
 def singlerecord(data_path):
